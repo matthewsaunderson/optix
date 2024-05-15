@@ -28,7 +28,7 @@ export const App = () => {
 
   return (
     <>
-      <h2>Welcome to Movie database!</h2>;
+      <h2>Welcome to Movie database!</h2>
       <h3>
         Total movies:{" "}
         {movieData?.length ?? (isAnyDataPending ? "Loading..." : 0)}
